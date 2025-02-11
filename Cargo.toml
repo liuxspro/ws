@@ -1,3 +1,10 @@
 [workspace]
 resolver = "2"
 members = ["crates/*"]
+homepage = "https://github.com/liuxspro/ws"
+repository = "https://github.com/liuxspro/ws"
+
+# The profile that 'dist' will build with
+[profile.dist]
+inherits = "release"
+lto = "thin"

@@ -2,6 +2,8 @@
 name = "adder"
 version = "0.1.0"
 edition = "2021"
+homepage = "https://github.com/liuxspro/ws"
+repository = "https://github.com/liuxspro/ws"
 
 [dependencies]
 
